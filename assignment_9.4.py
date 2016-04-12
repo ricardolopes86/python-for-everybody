@@ -3,7 +3,7 @@ handle = open(name,'r')
 
 contador = dict()
 for line in handle:
-	if line.startswith("From"):
+	if line.startswith("From "):
 		palavras = line.split()
 		for palavra in palavras:
 			if '@' in palavra:
