@@ -20,3 +20,4 @@ while True:
 
 print "Maximum is ", largest
 print "Minimum is ", smallest
+From marquard@uct.ac.za
